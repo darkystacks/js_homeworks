@@ -83,6 +83,7 @@ class Basket {
         if(this.addTest === undefined) {
             instancesOfBasketGoods.push(this.gb)
         }
+        this.addtest = undefined;
     }
     remove(good, amount) {
         this.gbdel = new BasketGood(good, amount);
